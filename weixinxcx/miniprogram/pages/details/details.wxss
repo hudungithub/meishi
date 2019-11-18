@@ -1,0 +1,105 @@
+/* pages/details/details.wxss */
+/* 详情头部 */
+.details{
+  background: #fff;
+}
+.dt-img{
+  width: 100%;
+  height: 800rpx;
+  position: relative;
+}
+.dt-img image{
+  width: 100%;
+  height: 100%;
+}
+.fx-img{
+  width: 62rpx;
+  height: 62rpx;
+  position: absolute;
+  right: 50rpx;
+  margin-top: 20rpx;
+}
+.fx-img image{
+  width: 100%;
+  height: 100%;
+}
+.dt-tn{
+  color: #666;
+  font-size: 26rpx;
+  padding-left: 20rpx;
+  margin-top: 10rpx; 
+}
+.dt-tp{
+  margin-top:12rpx;
+}
+.dt-tp1{
+  padding-left: 20rpx;
+  color: #f60;
+  font-size: 34rpx;
+}
+.dt-tp2{
+  color: #f60;
+  font-size: 36rpx;
+}
+.dt-ps{
+  color: #666;
+  font-size: 20rpx;
+  padding-left: 20rpx;
+  margin: 8rpx 0;
+}
+.dt-qh{
+  color: #666;
+  font-size: 20rpx;
+  padding-left: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.dt-qh2{
+  width: 90rpx;
+  height: 50rpx;
+  
+}
+.dt-qh2 text{
+  padding-left: 6rpx;
+}
+.dt-qh2 image{
+  width: 27%;
+  height: 46%;
+}
+/* 中部 */
+.zhongbu{
+  width: 100%;
+  height : 146rpx;
+  
+  border-top: 2rpx solid #dfdfdf;
+  border-bottom: 2rpx solid #dfdfdf;
+}
+.zb-2{
+  color: #b2b2b2;
+  padding: 12rpx 8rpx;
+}
+.zb-1{
+  background: #dfdfdf;
+  width: 80rpx;
+  height: 2rpx;
+  margin-bottom: 10rpx;
+
+}
+.zhongbu text{
+  display: inline-block;
+}
+.zb{
+  margin-left:35%;
+}
+.zbcp{
+  padding-left: 20rpx; 
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+/* 底部 */
+.db1{
+  padding-left: 20rpx; 
+  font-size: 26rpx;
+  margin-top: 20rpx;
+  margin-bottom: 6rpx; 
+}

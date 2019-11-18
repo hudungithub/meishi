@@ -1,0 +1,59 @@
+<!--pages/foodChapter/foodChapter.wxml-->
+<!--ext>美食篇</text-->
+<view class="msp">
+  <!-- 标题 -->
+  <view class="bt">一篇文章让你读懂吃懂法国美食</view>
+  <!-- 发布时间 -->
+  <view class="sj">2016-10-10 苗子 饭醉团长</view>
+  <!-- 发布内容 -->
+  <view class="fbnr">
+    <view>说到法餐，我们往往会有一些先入为主的印象，比如鹅肝、鱼子酱、松露、香槟、葡萄酒、傲慢的侍者、天书般的菜单、洁白的桌布和餐巾，还有精致的摆盘（意即：少的可怜的菜量）。</view>
+    <view>法餐的历史，走的是吃饱—吃好—吃情调的路线，只是近一两百年以来，在吃情调方面，走得比别的国家更远一些，因此也获得了全世界的饕餮之徒的追捧。</view>
+  </view>
+  <view class="tpfx">
+    <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/fbnr.png"></image>
+  </view>
+  <view class="fbnr">
+    <view>一般认为，是意大利人把美食之光带到了黑暗中的法国。那是在1533年，佛罗伦萨首富美第奇家族的卡特琳（Catherine de Medici）在教皇的撮合下，嫁给了法国国王弗朗索瓦一世的儿子亨利（后来继承法国王位，成为亨利二世）。因为担心法国的食物太难吃，卡特琳带去了大批随从，包括厨师、仆人、种菜和饲养家畜的农人、设计炉灶的工匠等，还有全套的意大利餐具。
+    </view>
+    <view>当时的法国宫廷里，不论多么高级的宴会，主人和宾客都是随身自带一副工具——左手和右手，吃东西用手抓。也许是因为亨利王子觉得这个带意大利口音的老婆不易沟通，或者因为讨厌她不但自己吃饭矫情，还要教老公学用刀叉，一直不太待见这个老婆，公然与比自己大20岁的情妇出双入对。不过，美第奇的卡特琳最终还是通过生育子嗣稳定了自己的地位，并在亨利二世死后扶植自己的三个儿子相继做了国王。随着卡特琳成为王后、太后，法国宫廷宴席上开始了“全盘意化”，刀叉代替了手抓</view>
+    <view>然而，为什么是法餐而不是意大利餐后来成了高档餐饮的代表？在受到意大利影响之前，法国朝野上下难道就食不知味吗？</view>
+  </view>
+  <!-- 评论 -->
+  <view class="pl">
+    <view class="plts">
+      <text>全部评论</text>
+      <text>99+</text>
+    </view>
+    <view class="plq">
+      <!-- 随机头像 -->
+      <view class="pl-l">
+        <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/yhtx.png"></image>
+      </view>
+      <view class="pl-r">
+        <!-- 随机网名 -->
+        <view class="plwm">dada</view>
+        <!-- 评论 -->
+        <view class="plnr">hahaha</view>
+        <view>
+          <!-- 评论时间 -->
+
+          <!-- <view class="container"> -->
+            <!-- 建立按钮，为按钮绑定函数 -->
+            <!-- <button bindtap="getTime">点击获取当前时间</button> -->
+            <!-- wx:if判断是否存在 -->
+            <!-- <text wx:if="{{time}}">{{time}}</text> -->
+          <!-- </view> -->
+
+          <!-- 回复评论和点赞 -->
+          <view>
+            <image></image>
+            <image></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="plbt"></view>
+  </view>
+
+</view>

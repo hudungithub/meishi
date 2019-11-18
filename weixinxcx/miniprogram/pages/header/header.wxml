@@ -1,0 +1,144 @@
+<!--pages/header/header.wxml-->
+<!--text>pages/header/header.wxml</text-->
+<!-- <view>首页</view> -->
+<view class="sy">
+  <!-- 搜索框 -->
+  <van-search bind:search="onSearch" class="syss" value="{{ value }}" placeholder="请输入搜索关键词" />
+  <!-- 轮播图 -->
+  <view class="lb">
+    <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" circular="true" style="height:400rpx;width:100%">
+      <swiper-item>
+        <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/dh1.png" style="width:100%;height:100%"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/dh2.png" style="width:100%;height:100%;"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 中部导航 -->
+  <view class="zdh">
+    <view bindtap="goStapleFood">
+      <image src="../../images/zs.png"></image>
+      <text>主食</text>
+    </view>
+    <view>
+      <image src="../../images/kc.png"></image>
+      <text>快餐</text>
+    </view>
+    <view>
+      <image src="../../images/zc.png"></image>
+      <text>早餐</text>
+    </view>
+    <view>
+      <image src="../../images/xwc.png"></image>
+      <text>下午茶</text>
+    </view>
+  </view>
+  <!-- 中间轮播图 -->
+  <view class="lb1">
+    <swiper indicator-dots="true" autoplay="true" interval="2500" duration="500" circular="true" style="height:120rpx;width:100%">
+      <swiper-item>
+        <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/zlb1.png" style="width:100%;height:100%"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/zlb2.png" style="width:100%;height:100%;"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <view class="zs">
+    <!-- 你下单我买单 -->
+    <view class="zs-l">
+      <view class="zs-l-text">
+        <view class="zs-text1">你下单我买单</view>
+        <view class="zs-text2">更多惊喜等你拿</view>
+      </view>
+      <view class="zs-img">
+        <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/zs1.png"></image>
+      </view>
+    </view>
+    <!-- 走进美食 -->
+    <view class="zs-r">
+      <view class="zs-rt" bindtap="goFood">
+        <view class="zs-rt-text">
+          <view class="zs-rt-text1">走进美食</view>
+          <view class="zs-rt-text2">更懂美食</view>
+        </view>
+
+        <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/zs2.png"></image>
+      </view>
+      <!-- 你任性吃 -->
+      <view class="zs-rb">
+        <view class="zs-rb-text">
+          <view class="zs-rbt1" bindtap="goStapleFood">你任性吃</view>
+          <view class="zs-rbt2">好吃到停不下</view>
+        </view>
+
+        <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/zs3.png" bindtap="goStapleFood"></image>
+      </view>
+    </view>
+  </view>
+  <!-- 社区评论 -->
+  <view class="sqpl">
+    <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/sqpl.png"></image>
+  </view>
+  <!-- 美味优惠 -->
+  <view class="mwyh">
+    最美味最优惠
+  </view>
+  <!-- 美味优惠商品 -->
+  <view class="mwyh-sp" wx:for="{{list}}" wx:key="index">
+    <view class="sp">
+      <view class="sp-img" bindtap="goDetails" data-id="{{item._id}}">
+        <image src="{{item.image}}"></image>
+      </view>
+      <view class="sp-tr">
+        <view class="sp-t1" bindtap="goDetails" data-id="{{item._id}}">{{item.name}}</view>
+        <view class="sp-tb" bindtap="goDetails" data-id="{{item._id}}">
+          <view class="sp-t2">
+            <text>¥</text>{{item.price}}</view>
+          
+          </view>
+          <view class="sp-th">
+            <view class="sp-t3">销量：{{item.number}}</view>
+            <view class="sp-t30">
+              <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/gwc.png" bindtap="clickme" data-id="{{index}}"></image>
+            </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 购物弹出框 -->
+<van-cell title="展示弹出层" is-link bind:click="showPopup" />
+<van-popup show="{{ show }}" bind:close="onClose" custom-style="height :32%" position="bottom">
+  <view class="tcl">
+    <view class="tcl-l">
+      <image src="{{list[index1].image}}"></image>
+    </view>
+    <view class="tcl-r">
+    <view class="tcl-tx">
+      <view class="tcl-rt">
+        <view class="tcl-r1">{{list[index1].name}}</view>
+        <view class="tcl-r2">
+          <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/ch.png" bindtap="clickme"></image>
+        </view>
+      </view>
+      </view>
+      <view class="tcl-r3">
+        <text>¥</text>{{list[index1].price}}</view>
+      <view class="tcl-th">
+        <view class="tcl-t3">库存：{{list[index1].stock}}</view>
+      </view>
+    </view>
+  </view>
+  <!-- 购买数量 -->
+  <view class="gmsl">
+    <view class="gmsl-t">购买数量:</view>
+    <van-stepper value="{{ 1 }}" input-width="20rpx" button-size="32rpx" />
+  </view>
+  <view>
+    <van-button type="primary" size="large" color="red" bindtap="add_cart">加入购物车</van-button>
+  </view>
+</van-popup>

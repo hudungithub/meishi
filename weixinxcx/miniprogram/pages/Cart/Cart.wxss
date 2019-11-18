@@ -1,0 +1,75 @@
+/* pages/Cart/Cart.wxss */
+.cart_null{
+  /* margin: 0 auto;
+  width: 300rpx;
+  border: 1px solid red; */ 
+  text-align: center;
+}
+.cart_null_img{
+  width:200rpx;
+  height: 200rpx;
+  margin-top: 200rpx;
+}
+.cart_null_txt{
+  font-size: 25rpx;
+  color: #666;
+  margin-top: 10rpx;
+}
+.cart_null_button{
+  width: 160rpx;
+  color: #fff;
+  background: rgb(249, 61, 40);
+  line-height: 50rpx;
+  border-radius: 12rpx;
+  font-size: 24rpx;
+  display: inline-block;
+  margin-top: 20rpx;
+}
+
+.cart_good{
+  border: 1px solid red;
+  display: flex;
+}
+.qx{
+  margin-left:20rpx;
+}
+.cart_good_v1{
+  padding: 90rpx 20rpx;
+  width: 5%;
+  display: inline-block;
+  /* float: left; */
+}
+.cart_good_img{
+  width: 160rpx;
+  height: 160rpx;
+  /* float: left; */
+  padding: 30rpx 0;
+}
+.cart_good_v3{
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden; 
+  padding: 50rpx 20rpx;
+  
+}
+.cart_good_v3_v1{
+  margin-top: 20rpx;
+  
+}
+.cart_good_v3_money{
+  color:red;
+}
+.sum{
+  float:right;
+}
+.cart-v{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cart_good_v2{
+  width: 50%;
+}
+.cart_good_v3{
+  display: flex;
+}

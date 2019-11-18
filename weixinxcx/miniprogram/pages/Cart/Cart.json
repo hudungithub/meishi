@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "van-checkbox": "/vant-weapp/checkbox/index",
+    "van-checkbox-group": "/vant-weapp/checkbox-group/index",
+    "van-stepper": "/vant-weapp/stepper/index",
+    "van-submit-bar": "/vant-weapp/submit-bar/index"
+  },
+  "backgroundColor": "#F6F6F6",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#F6F6F6",
+  "navigationBarTitleText": "购物车",
+  "navigationBarTextStyle": "black"
+}

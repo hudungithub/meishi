@@ -1,0 +1,71 @@
+/* pages/foodChapter/foodChapter.wxss */
+/* 页面 */
+.msp{
+  padding-left: 30rpx;
+}
+/* 标题 */
+.bt{
+  color: #666;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin: 16rpx 0;
+  }
+  
+/* 发布时间 */
+.sj{
+  color: #999;
+  font-size: 22rpx;
+}
+/* 发布内容 */
+.fbnr{
+  color: #666;
+  font-size: 26rpx;
+  line-height: 46rpx;
+  text-indent:32rpx;
+}
+/* 图片分享 */
+.tpfx{
+  width: 720rpx;
+  height: 500rpx;
+}
+.tpfx image{
+  width: 100%;
+  height: 100%;
+}
+/* 评论条数 */
+.plts{
+  padding-left: 26rpx;
+  color: #333;
+  font-size: 22rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+/* 评论区 */
+.plq{
+  display: flex;
+  width: 100%;
+}
+/* 评论左 */
+.pl-l{
+  width: 10%;
+  height: 76rpx;
+}
+.pl-l image{
+  width: 100%;
+  height: 100%;
+  margin: 12rpx 16rpx 0 0;
+}
+/* 评论右 */
+.pl-r{
+  width: 90%;
+}
+/* 网名 */
+.plwm{
+  font-size: 22rpx;
+  line-height: 46rpx;
+}
+/* 评论内容 */
+.plnr{
+  font-size: 22rpx;
+  line-height: 50rpx;
+}

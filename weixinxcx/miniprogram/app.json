@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/login0/login0",
+    "pages/header/header",
+    "pages/activity/activity",
+    "pages/my/my",
+    "pages/staplefood/staplefood",
+    "pages/foodChapter/foodChapter",
+    "pages/details/details",
+    "pages/Cart/Cart",
+    "pages/settlement/settlement",
+    "pages/order/order"
+  ],
+  "window": {
+    "backgroundColor": "#fbc531",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "快乐美食",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#fbc531",
+    "list": [
+      {
+        "pagePath": "pages/header/header",
+        "text": "首页",
+        "iconPath": "images/shouye0.png",
+        "selectedIconPath": "images/shouye1.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "images/huodong0.png",
+        "selectedIconPath": "images/huodong1.png"
+      },
+      {
+        "pagePath": "pages/Cart/Cart",
+        "text": "购物车",
+        "iconPath": "images/gwc0.png",
+        "selectedIconPath": "images/gwc1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/wode0.png",
+        "selectedIconPath": "images/wode1.png"
+      }
+    ]
+  }
+}

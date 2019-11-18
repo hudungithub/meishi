@@ -1,0 +1,24 @@
+<!--pages/staplefood/staplefood.wxml-->
+<!--text>主食</text-->
+<view class="mwyh-sp">
+    <view class="sp">
+      <view class="sp-img">
+        <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/mnr.png"></image>
+      </view>
+      <view class="sp-tr">
+        <view class="sp-t1">土豆焖牛肉</view>
+        <view class="sp-tb">
+          <view class="sp-t2">
+            <text>¥</text>59.00</view>
+          <view class="sp-th">
+            <view class="sp-t3">销量：1</view>
+            <view class="sp-t30">
+              <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/gwc.png"></image>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  

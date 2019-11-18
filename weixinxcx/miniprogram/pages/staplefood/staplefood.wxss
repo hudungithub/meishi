@@ -1,0 +1,54 @@
+/* pages/staplefood/staplefood.wxss */
+.sp{
+  display: flex;
+  padding: 14rpx 0;
+}
+.sp-img{
+  width: 25%;
+  height: 175rpx;
+}
+.sp-t1{
+  color: #666;
+  font-size: 28rpx;
+  padding-left: 20rpx;
+}
+.sp-tr{
+  width: 75%;
+}
+.sp-t2{
+  padding-left: 20rpx;
+  color: #f60;
+  font-size: 26rpx;
+}
+.sp-t2 text{
+  font-size: 20rpx;
+  margin-right: 10rpx;
+}
+.sp-t3{
+  padding-left: 20rpx;
+  color: #a8a8a8;
+  font-size: 20rpx;
+  margin-top: 14rpx;
+}
+.sp-img image{
+  width: 100%;
+  height: 100%;
+}
+.sp-t30{
+  width: 32rpx;
+  height: 32rpx;
+  text-align: center;
+  padding-left: 420rpx;
+  margin-top: 8rpx;
+}
+.sp-t30 image{
+  width: 100%;
+  height: 100%;
+}
+.sp-tb{
+  margin-top: 24rpx;
+}
+.sp-th{
+  display: flex;
+  /* justify-content:space-around; 两端对齐 */
+}

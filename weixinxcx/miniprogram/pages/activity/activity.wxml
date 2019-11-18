@@ -1,0 +1,13 @@
+<!--pages/activity/activity.wxml-->
+<!--text>pages/activity/activity.wxml</text-->
+<!-- <view>活动</view> -->
+<view class="hdlb">
+  <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" circular="true" style="height:200rpx;width:100%">
+      <swiper-item>
+        <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/hdlb1.png" style="width:100%;height:100%"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="cloud://web1906-haha-vb5c9.7765-web1906-haha-vb5c9-1300467024/hdlb2.png" style="width:100%;height:100%;"></image>
+      </swiper-item>
+    </swiper>
+</view>

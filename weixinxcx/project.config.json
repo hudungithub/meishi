@@ -1,0 +1,113 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"appid": "wxdce8f42001226d40",
+	"projectname": "weixinxcx",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"compileType": "miniprogram",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/header/header",
+					"pathName": "pages/header/header",
+					"query": "pages/login0/login0\"",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/activity/activity",
+					"pathName": "pages/activity/activity",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/header/header",
+					"pathName": "pages/login0/login0",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/header/header",
+					"pathName": "pages/staplefood/staplefood",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/staplefood/staplefood",
+					"pathName": "pages/staplefood/staplefood",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/foodChapter/foodChapter",
+					"pathName": "pages/foodChapter/foodChapter",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/details/details",
+					"pathName": "pages/details/details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/Cart/Cart",
+					"pathName": "pages/Cart/Cart",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

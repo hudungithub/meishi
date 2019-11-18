@@ -1,0 +1,58 @@
+<!--pages/settlement/settlement.wxml-->
+<!--text>结算</text-->
+<view>
+  <view class="v1" wx:for="{{list}}" wx:key="index">
+    <view class="clear"></view>
+    <view class="v_img">
+      <image src="{{item.image}}" class="img"></image>
+    </view>
+    <view class="v_txt">
+      <text class="txt1">{{item.title}}</text>
+      <text class="txt2">价格为指导价格，具体价格请联系相应负责人</text>
+      <view class="txt00">
+        <text class="txt3">￥{{item.price*sum}}</text>
+        <!-- <text class="txt4">￥{{item.old_price}}</text> -->
+        <text class="txt5">数量:{{sum}}</text>
+      </view>
+    </view>
+    <view class="clear"></view>
+  </view>
+
+  <view class="v2">
+    <view class="v2_txt">
+      <text class="v2_txt1">*</text><text class="v2_txt2">姓名</text>
+    </view>
+    <view class="input">
+      <input class="weui-input" value="{{name}}" auto-focus placeholder="请输入姓名" bindinput="name"/>
+    </view>
+  </view>
+  <view class="v2">
+    <view class="v2_txt">
+      <text class="v2_txt1">*</text><text class="v2_txt2">手机</text>
+    </view>
+    <view class="input">
+      <input class="weui-input" auto-focus placeholder="请输入手机" bindinput="phone"/>
+    </view>
+  </view>
+  <view class="v2">
+    <view class="v2_txt">
+      <text class="v2_txt1">*</text><text class="v2_txt2">地址</text>
+    </view>
+    <view class="input">
+      <input class="weui-input" auto-focus placeholder="请输入地址" bindinput="address"/>
+    </view>
+  </view>
+
+  <view class="v3">
+    <view class="v2_txt">
+      <text class="v2_txt1">*</text><text class="v2_txt2">买家留言</text>
+    </view>
+    <view class="input">
+     <textarea bindblur="bindTextAreaBlur" auto-height placeholder="请输入留言" bindinput="beizhu"/>
+    </view>
+  </view>
+</view>
+
+<view class="yy">
+  <text class="yy_txt" bindtap="zhifu">提交订单</text>
+</view>
